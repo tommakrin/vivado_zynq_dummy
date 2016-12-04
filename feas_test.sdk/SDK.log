@@ -1,0 +1,341 @@
+14:15:44 INFO  : Launching XSDB server: xsdb.bat F:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+14:15:51 INFO  : XSDB server has started successfully.
+14:15:53 INFO  : Processing command line option -hwspec F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper.hdf.
+22:12:13 INFO  : Launching XSDB server: xsdb.bat F:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+22:12:14 INFO  : XSDB server has started successfully.
+22:12:19 INFO  : Processing command line option -hwspec F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper.hdf.
+22:12:20 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+22:20:52 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:24:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:24:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:35:21 INFO  : Launching XSDB server: xsdb.bat F:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+22:35:26 INFO  : XSDB server has started successfully.
+22:35:28 INFO  : Processing command line option -hwspec F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper.hdf.
+22:35:29 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+22:41:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+22:41:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248708053" && level==0} -index 1' command is executed.
+22:41:30 INFO  : FPGA configured successfully with bitstream "F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+22:43:15 INFO  : ps7_init is completed.
+22:43:15 INFO  : ps7_post_config is completed.
+22:43:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:21:09 INFO  : Launching XSDB server: xsdb.bat F:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+00:21:12 INFO  : XSDB server has started successfully.
+00:21:13 INFO  : Processing command line option -hwspec F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper.hdf.
+00:21:14 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+01:04:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:04:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248708053" && level==0} -index 1' command is executed.
+01:04:29 INFO  : FPGA configured successfully with bitstream "F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+01:04:48 INFO  : ps7_init is completed.
+01:04:48 INFO  : ps7_post_config is completed.
+01:04:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:21:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:29:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:11:40 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1470012974704,  Project:1469703679085
+04:11:40 INFO  : Project system_wrapper_hw_platform_0's source hardware specification located at F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+04:12:15 INFO  : Copied contents of F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+04:12:21 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+04:12:37 INFO  : 
+04:12:38 INFO  : Updating hardware inferred compiler options for dma_test.
+04:12:38 INFO  : Clearing existing target manager status.
+04:12:38 INFO  : Closing and re-opening the MSS file of ther project dma_test_bsp
+04:12:38 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+04:12:40 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+04:33:19 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1470015086973,  Project:1470012974704
+04:33:19 INFO  : Project system_wrapper_hw_platform_0's source hardware specification located at F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+04:33:46 INFO  : Copied contents of F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+04:33:51 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+04:34:00 INFO  : 
+04:34:01 INFO  : Updating hardware inferred compiler options for dma_test.
+04:34:01 INFO  : Clearing existing target manager status.
+04:34:01 INFO  : Closing and re-opening the MSS file of ther project dma_test_bsp
+04:34:01 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+04:34:03 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+04:34:48 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+04:35:15 INFO  : Launching XSDB server: xsdb.bat F:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+04:35:19 INFO  : XSDB server has started successfully.
+04:35:21 INFO  : Processing command line option -hwspec F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper.hdf.
+04:35:21 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+04:37:33 INFO  : Successfully generated F:\Documents\CSD\DiplomaThesis\feas_test\feas_test.sdk\dma_test\src\lscript.ld.
+04:37:33 INFO  : Applying linker script to all configurations of project dma_test.
+04:37:33 INFO  : Setting rebuild state to true for all configurations of project dma_test.
+04:40:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:40:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248708053" && level==0} -index 1' command is executed.
+04:41:02 INFO  : FPGA configured successfully with bitstream "F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+04:41:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:44:23 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:44:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:46:09 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:46:56 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:47:05 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:47:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:47:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248708053" && level==0} -index 1' command is executed.
+04:47:27 INFO  : FPGA configured successfully with bitstream "F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+04:47:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:47:49 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:48:06 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:48:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:49:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:49:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:50:11 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:50:17 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:50:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:50:50 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:50:53 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:51:44 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:51:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:53:38 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:53:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:54:21 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:54:23 INFO  : Processor reset is completed for ps7_cortexa9_0
+04:54:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+04:54:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:26:54 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1470017520969,  Project:1470015086973
+05:26:54 INFO  : Project system_wrapper_hw_platform_0's source hardware specification located at F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+05:26:56 INFO  : Copied contents of F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+05:27:00 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+05:27:05 INFO  : 
+05:27:06 INFO  : Updating hardware inferred compiler options for dmatest.
+05:27:06 INFO  : Clearing existing target manager status.
+05:27:06 INFO  : Closing and re-opening the MSS file of ther project dmatest_bsp
+05:27:08 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+05:27:09 WARN  : Linker script will not be updated automatically. Users need to update it manually.
+05:28:09 INFO  : Inferring section assignments and sizes from elf file: F:\Documents\CSD\DiplomaThesis\feas_test\feas_test.sdk\dmatest\Debug\dmatest.elf
+05:28:25 INFO  : Successfully generated F:\Documents\CSD\DiplomaThesis\feas_test\feas_test.sdk\dmatest\src\lscript.ld.
+05:28:25 INFO  : Applying linker script to all configurations of project dmatest.
+05:28:25 INFO  : Setting rebuild state to true for all configurations of project dmatest.
+05:28:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+05:28:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248708053" && level==0} -index 1' command is executed.
+05:28:41 INFO  : FPGA configured successfully with bitstream "F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+05:29:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+05:29:44 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248708053" && level==0} -index 1' command is executed.
+05:29:45 INFO  : 'fpga -state' command is executed.
+05:29:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+05:29:45 INFO  : Sourcing of 'F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+05:29:45 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zed 210248708053"} -index 0' command is executed.
+05:29:46 INFO  : Hardware design information is loaded from 'F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/system.hdf'.
+05:29:46 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zed 210248708053"} -index 0' command is executed.
+05:29:47 INFO  : 'stop' command is executed.
+05:29:52 INFO  : 'ps7_init' command is executed.
+05:29:52 INFO  : 'ps7_post_config' command is executed.
+05:29:53 INFO  : 'con' command is executed.
+05:29:54 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+05:29:54 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+05:29:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+05:29:55 INFO  : The application 'F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/dmatest/Debug/dmatest.elf' is downloaded to processor 'ps7_cortexa9_0'.
+05:29:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zed 210248708053"} -index 0
+loadhw F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zed 210248708053"} -index 0
+stop
+ps7_init
+ps7_post_config
+con
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248708053"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248708053"} -index 0
+dow F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/dmatest/Debug/dmatest.elf
+----------------End of Script----------------
+
+05:29:56 INFO  : Memory regions updated for context APU
+05:29:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+05:29:56 INFO  : 'con' command is executed.
+05:29:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248708053"} -index 0
+con
+----------------End of Script----------------
+
+05:30:07 INFO  : Disconnected from the channel tcfchan#1.
+05:30:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248708053" && level==0} -index 1' command is executed.
+05:30:08 INFO  : 'fpga -state' command is executed.
+05:30:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+05:30:09 INFO  : Sourcing of 'F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/ps7_init.tcl' is done.
+05:30:10 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zed 210248708053"} -index 0' command is executed.
+05:30:10 INFO  : Hardware design information is loaded from 'F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/system.hdf'.
+05:30:10 INFO  : 'targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zed 210248708053"} -index 0' command is executed.
+05:30:11 INFO  : 'stop' command is executed.
+05:30:14 INFO  : 'ps7_init' command is executed.
+05:30:14 INFO  : 'ps7_post_config' command is executed.
+05:30:15 INFO  : 'con' command is executed.
+05:30:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+05:30:17 INFO  : Processor reset is completed for 'ps7_cortexa9_0'.
+05:30:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+05:30:18 INFO  : The application 'F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/dmatest/Debug/dmatest.elf' is downloaded to processor 'ps7_cortexa9_0'.
+05:30:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/ps7_init.tcl
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zed 210248708053"} -index 0
+loadhw F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/system.hdf
+targets -set -filter {name =~"APU" && jtag_cable_name =~ "Digilent Zed 210248708053"} -index 0
+stop
+ps7_init
+ps7_post_config
+con
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248708053"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248708053"} -index 0
+dow F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/dmatest/Debug/dmatest.elf
+----------------End of Script----------------
+
+05:30:18 INFO  : Memory regions updated for context APU
+05:30:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+05:30:19 INFO  : 'con' command is executed.
+05:30:19 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248708053"} -index 0
+con
+----------------End of Script----------------
+
+05:30:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+05:30:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248708053" && level==0} -index 1' command is executed.
+05:30:28 INFO  : FPGA configured successfully with bitstream "F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+05:30:46 INFO  : Disconnected from the channel tcfchan#2.
+05:30:47 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:22:58 ERROR : Unexpected error while fetching XMD's response: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:161)
+	at java.io.BufferedReader.read(BufferedReader.java:182)
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess$CommandResultsReader.run(XMDJSONProcess.java:332)
+	at java.lang.Thread.run(Thread.java:745)
+03:22:58 ERROR : Zero sized response read from XMD. This indicates a communication error or a programming error.
+00:26:00 INFO  : Launching XSDB server: xsdb.bat F:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+00:26:04 INFO  : XSDB server has started successfully.
+00:26:10 INFO  : Processing command line option -hwspec F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper.hdf.
+00:26:10 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+00:40:40 INFO  : Launching XSDB server: xsdb.bat F:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+00:40:41 INFO  : XSDB server has started successfully.
+00:40:41 INFO  : Processing command line option -hwspec F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper.hdf.
+00:40:42 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+00:42:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:42:15 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248708053" && level==0} -index 1' command is executed.
+00:42:19 INFO  : FPGA configured successfully with bitstream "F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+00:42:55 INFO  : ps7_init is completed.
+00:42:55 INFO  : ps7_post_config is completed.
+00:42:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:43:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:43:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248708053" && level==0} -index 1' command is executed.
+00:43:45 INFO  : FPGA configured successfully with bitstream "F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+00:44:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:44:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:45:12 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+00:45:17 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:45:20 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    AP transaction error (DP CTRL_STAT=0xf0000021)
+    Error Address = 0x00100000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+00:45:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:45:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248708053" && level==0} -index 1' command is executed.
+00:45:45 ERROR : Error occured during Prog B register check
+00:45:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:45:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248708053" && level==0} -index 1' command is executed.
+00:46:02 INFO  : FPGA configured successfully with bitstream "F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+00:46:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:46:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248708053" && level==0} -index 1' command is executed.
+00:46:50 INFO  : FPGA configured successfully with bitstream "F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+00:47:06 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+00:47:27 INFO  : Launching XSDB server: xsdb.bat F:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+00:47:28 INFO  : XSDB server has started successfully.
+00:47:28 INFO  : Processing command line option -hwspec F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper.hdf.
+00:47:29 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+00:48:54 INFO  : ps7_init is completed.
+00:48:54 INFO  : ps7_post_config is completed.
+00:48:54 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:49:13 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:49:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248708053" && level==0} -index 1' command is executed.
+00:49:16 INFO  : FPGA configured successfully with bitstream "F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+00:50:20 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:55:46 INFO  : Processor reset is completed for ps7_cortexa9_0
+00:55:49 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Failed to download ELF file
+
+
+    AP transaction error (DP CTRL_STAT=0xf0000021)
+    Error Address = 0x00100000, Size = 0x00000004
+
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:686)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:637)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:309)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:858)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+00:56:16 INFO  : Inferring section assignments and sizes from elf file: F:\Documents\CSD\DiplomaThesis\feas_test\feas_test.sdk\dmatest\Debug\dmatest.elf
+00:56:56 INFO  : Successfully generated F:\Documents\CSD\DiplomaThesis\feas_test\feas_test.sdk\dmatest\src\lscript.ld.
+00:56:56 INFO  : Applying linker script to all configurations of project dmatest.
+00:56:56 INFO  : Setting rebuild state to true for all configurations of project dmatest.
+01:02:10 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+01:02:38 INFO  : Launching XSDB server: xsdb.bat F:/Xilinx/SDK/2015.4/scripts/xsdb/xsdb/xsdb-server.tcl
+01:02:39 INFO  : XSDB server has started successfully.
+01:02:39 INFO  : Processing command line option -hwspec F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper.hdf.
+01:02:40 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+01:03:14 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:03:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248708053" && level==0} -index 1' command is executed.
+01:03:24 INFO  : FPGA configured successfully with bitstream "F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+01:03:42 INFO  : ps7_init is completed.
+01:03:42 INFO  : ps7_post_config is completed.
+01:03:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:05:04 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:05:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:05:43 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:05:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:14:18 INFO  : Inferring section assignments and sizes from elf file: F:\Documents\CSD\DiplomaThesis\feas_test\feas_test.sdk\dmatest\Debug\dmatest.elf
+01:14:24 INFO  : Successfully generated F:\Documents\CSD\DiplomaThesis\feas_test\feas_test.sdk\dmatest\src\lscript.ld.
+01:14:24 INFO  : Applying linker script to all configurations of project dmatest.
+01:14:24 INFO  : Setting rebuild state to true for all configurations of project dmatest.
+01:14:33 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:14:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:20:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:23:52 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1470263009741,  Project:1470017520969
+01:23:52 INFO  : Project system_wrapper_hw_platform_0's source hardware specification located at F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+01:24:08 INFO  : Copied contents of F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+01:24:12 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+01:24:14 INFO  : 
+01:24:14 INFO  : Updating hardware inferred compiler options for dmatest.
+01:24:15 INFO  : Clearing existing target manager status.
+01:25:05 INFO  : Inferring section assignments and sizes from elf file: F:\Documents\CSD\DiplomaThesis\feas_test\feas_test.sdk\dmatest\Debug\dmatest.elf
+01:25:12 INFO  : Successfully generated F:\Documents\CSD\DiplomaThesis\feas_test\feas_test.sdk\dmatest\src\lscript.ld.
+01:25:12 INFO  : Applying linker script to all configurations of project dmatest.
+01:25:12 INFO  : Setting rebuild state to true for all configurations of project dmatest.
+01:25:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:25:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248708053" && level==0} -index 1' command is executed.
+01:26:00 INFO  : FPGA configured successfully with bitstream "F:/Documents/CSD/DiplomaThesis/feas_test/feas_test.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+01:26:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:27:44 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:27:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:28:09 INFO  : Inferring section assignments and sizes from elf file: F:\Documents\CSD\DiplomaThesis\feas_test\feas_test.sdk\foobar\Debug\foobar.elf
+01:28:14 INFO  : Successfully generated F:\Documents\CSD\DiplomaThesis\feas_test\feas_test.sdk\foobar\src\lscript.ld.
+01:28:14 INFO  : Applying linker script to all configurations of project foobar.
+01:28:14 INFO  : Setting rebuild state to true for all configurations of project foobar.
+01:28:59 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+01:29:03 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:29:43 INFO  : Processor reset is completed for ps7_cortexa9_0
+01:29:44 ERROR : Port COM7 is already in use.
+02:15:44 INFO  : Processor reset is completed for ps7_cortexa9_0

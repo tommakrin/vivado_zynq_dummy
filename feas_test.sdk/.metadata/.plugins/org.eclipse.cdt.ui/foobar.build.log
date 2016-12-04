@@ -1,0 +1,6 @@
+02:15:43 **** Incremental Build of configuration Debug for project foobar ****
+make all 
+make: Nothing to be done for `all'.
+
+02:15:43 Build Finished (took 172ms)
+

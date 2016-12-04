@@ -1,0 +1,43 @@
+01:28:51 **** Incremental Build of configuration Debug for project foobar ****
+make all 
+make: Nothing to be done for `all'.
+01:28:58 **** Incremental Build of configuration Debug for project dmatest ****
+make all 
+make: Nothing to be done for `all'.
+01:28:59 **** Incremental Build of configuration Debug for project foobar ****
+make all 
+make: Nothing to be done for `all'.
+01:29:41 **** Incremental Build of configuration Debug for project dmatest ****
+make all 
+make: Nothing to be done for `all'.
+01:29:41 **** Incremental Build of configuration Debug for project foobar ****
+make all 
+make: Nothing to be done for `all'.
+01:35:54 **** Auto Build of configuration Debug for project dmatest ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../dmatest_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.d" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'RxSetup':
+../src/helloworld.c:326:12: warning: assignment makes pointer from integer without a cast
+   BdCurPtr = XAxiDma_BdRingNext(RxRingPtr, BdCurPtr);
+            ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: dmatest.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../dmatest_bsp/ps7_cortexa9_0/lib -o "dmatest.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: dmatest.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size dmatest.elf  |tee "dmatest.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  37304	   1224	  24308	  62836	   f574	dmatest.elf
+'Finished building: dmatest.elf.size'
+' '
+02:15:42 **** Incremental Build of configuration Debug for project dmatest ****
+make all 
+make: Nothing to be done for `all'.
+02:15:43 **** Incremental Build of configuration Debug for project foobar ****
+make all 
+make: Nothing to be done for `all'.
